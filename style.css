@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1000px;
+  background-color: white;
+  margin: 40px 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.main__section {
+  padding: 100px 50px;
+}
+
+.about-me__prof {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  font-style: normal;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+
+.about-me__name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.about-me__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #313131;
+  margin-bottom: 25px;
+  width: 400px;
+}
+
+.about-me {
+  margin-bottom: 40px;
+}
+
+.my-project {
+  margin-bottom: 50px;
+}
+
+.my-project__list {
+  padding: 0 0 0 17px;
+}
+
+.my-project__item {
+  color: black;
+  font-weight: bold;
+}
+.my-project__item__text {
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #313131;
+}
+.my-project__item__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #313131;
+}
+
+.tech-skills__item__name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+  margin: 20px 0 10px;
+}
+
+.tech-skills__item__level,
+.education__period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #313131;
+}
+
+.education {
+  margin-top: 45px;
+}
+.education__uni {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(116, 89, 111);
+  margin-bottom: 12px;
+}
+
+.education__prof,
+.education__dep {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+/* Sifebar section */
+
+.sifebar {
+  background-color: rgb(61, 39, 57);
+  width: 400px;
+  padding: 40px 20px;
+}
+
+.contacts {
+  margin: 50px 0 0 40px;
+}
+
+.contacts__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.contacts__description {
+  font-size: 12px;
+  color: #fff;
+}
+.contact__name {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.contact__link {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.soft-skills__list {
+  padding: 0 0 0 17px;
+}
+
+.soft-skills__item {
+  color: rgb(61, 39, 57);
+}
+
+.soft-skills__item__text {
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
